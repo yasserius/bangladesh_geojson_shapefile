@@ -29,8 +29,9 @@ Shapefiles in GeoJSON format: [[Google Drive]](https://drive.google.com/drive/fo
 - `bangladesh_geojson_admALL_2_entire_bd_division_district_unions.json`
 - `bangladesh_geojson_admALL_entire_bd_division_district_unions.json`
 
-# How to open GeoJSON file with Python (Plotly or matplotlib)
+# How to open GeoJSON / SHP files with Python
 - [Plotting Choropleth Maps using Python (Plotly)](https://www.youtube.com/watch?v=aJmaw3QKMvk)
+- [Shapefiles in Python: a super basic tutorial](https://chrishavlin.com/2016/11/16/shapefiles-tutorial/)
 
 # How to convert from SHP to GeoJSON (using ogr)
 Source of converter function: [medium.com](https://medium.com/tech-carnot/interactive-map-based-visualization-using-plotly-44e8ad419b97)
@@ -66,3 +67,4 @@ def shp2json(shp_path):
       json.dump(fc, f)
       print("GeoJSON file created: {}".format(output_name))
 ```
+*You can also do it with libraries like geopandas.*
