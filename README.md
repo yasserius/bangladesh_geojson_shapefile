@@ -33,6 +33,7 @@ Shapefiles in GeoJSON format: [[Google Drive]](https://drive.google.com/drive/fo
 - [Plotting Choropleth Maps using Python (Plotly)](https://www.youtube.com/watch?v=aJmaw3QKMvk)
 
 # How to convert from SHP to GeoJSON (using ogr)
+Source of converter function: [medium.com](https://medium.com/tech-carnot/interactive-map-based-visualization-using-plotly-44e8ad419b97)
 Link to OGR: [link](https://mothergeo-py.readthedocs.io/en/latest/development/how-to/gdal-ubuntu-pkg.html)
 ``` python
 import ogr
