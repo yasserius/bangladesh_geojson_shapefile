@@ -2,7 +2,7 @@
 
 <img src="https://raw.githubusercontent.com/yasserius/bangladesh_geojson_shapefile/main/bangladesh_shapefiles_geojson.png" height=400px>
 
-GeoJSON or SHP shapefile - Boundary / Outline shapes of Bangladesh Divisions (বিভাগ), Districts / Zilla (জেলা), Unions / Thanas (থানা)
+GeoJSON or SHP shapefile - Boundary / Outline shapes of Bangladesh Divisions (বিভাগ), Districts / Zilla / Jela (জেলা), Upozilla / Upojela (উপজেলা), Unions / Thanas (থানা)
 
 # Download
 Shapefiles in SHP format: [[humdata.org]](https://data.humdata.org/dataset/administrative-boundaries-of-bangladesh-as-of-2015) (Original Source)
@@ -34,9 +34,10 @@ Shapefiles in GeoJSON format: [[Google Drive]](https://drive.google.com/drive/fo
 - [Shapefiles in Python: a super basic tutorial](https://chrishavlin.com/2016/11/16/shapefiles-tutorial/)
 
 # How to convert from SHP to GeoJSON (using ogr)
-Source of converter function: [medium.com](https://medium.com/tech-carnot/interactive-map-based-visualization-using-plotly-44e8ad419b97)
+Source of converter function: [medium.com](https://medium.com/tech-carnot/interactive-map-based-visualization-using-plotly-44e8ad419b97) <br>
 Link to OGR: [link](https://mothergeo-py.readthedocs.io/en/latest/development/how-to/gdal-ubuntu-pkg.html)
 ``` python
+# Python >= 3.7
 import ogr
 import json
 
