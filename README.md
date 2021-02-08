@@ -29,7 +29,7 @@ Shapefiles in GeoJSON format: [[Google Drive]](https://drive.google.com/drive/fo
 - `bangladesh_geojson_admALL_2_entire_bd_division_district_unions.json`
 - `bangladesh_geojson_admALL_entire_bd_division_district_unions.json`
 
-Inside `small` folder:
+Inside `small` folder (smaller file size):
 
 - `small_bangladesh_geojson_adm0_whole_bangladesh_outline.json`
 - `small_bangladesh_geojson_adm1_8_divisions_bibhags.json`
