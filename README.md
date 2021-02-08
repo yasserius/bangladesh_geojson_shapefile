@@ -2,7 +2,7 @@
 
 <img src="https://raw.githubusercontent.com/yasserius/bangladesh_geojson_shapefile/main/bangladesh_shapefiles_geojson.png" height=400px>
 
-GeoJSON or SHP shapefile - Boundary / Outline shapes of Bangladesh Divisions (বিভাগ), Districts / Zilla / Jela (জেলা), Upozilla / Upojela (উপজেলা), Unions / Thanas (থানা)
+GeoJSON or SHP shapefile - Boundary / Outline shapes of Bangladesh Divisions (বিভাগ), Districts / Zila / Jela (জেলা), Upazila / Upojela (উপজেলা), Unions / Thanas (থানা)
 
 # Download
 Shapefiles in SHP format: [[humdata.org]](https://data.humdata.org/dataset/administrative-boundaries-of-bangladesh-as-of-2015) (Original Source)
@@ -16,8 +16,8 @@ Shapefiles in GeoJSON format: [[Google Drive]](https://drive.google.com/drive/fo
 - adm = Administration Regions
 - adm0 = Entire Bangladesh
 - adm1 = 8 Divisions
-- adm2 = 64 Districts
-- adm3 = 492 Upozilas
+- adm2 = 64 Districts/Zilas
+- adm3 = 492 Upazilas
 - adm4 = 5160 Thanas/Unions
 
 **GeoJSON files:**
@@ -28,6 +28,15 @@ Shapefiles in GeoJSON format: [[Google Drive]](https://drive.google.com/drive/fo
 - `bangladesh_geojson_adm4_5160_unions_thanas.json`
 - `bangladesh_geojson_admALL_2_entire_bd_division_district_unions.json`
 - `bangladesh_geojson_admALL_entire_bd_division_district_unions.json`
+
+Inside `small` folder:
+
+- `small_bangladesh_geojson_adm0_whole_bangladesh_outline.json`
+- `small_bangladesh_geojson_adm1_8_divisions_bibhags.json`
+- `small_bangladesh_geojson_adm2_64_districts_zillas.json`
+- `small_bangladesh_geojson_adm3_492_upozila.json`
+- `small_bangladesh_geojson_adm4_5160_unions_thanas.json`
+
 
 # How to open GeoJSON / SHP files with Python
 - [Plotting Choropleth Maps using Python (Plotly)](https://www.youtube.com/watch?v=aJmaw3QKMvk)
