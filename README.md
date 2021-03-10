@@ -1,4 +1,4 @@
-# GeoJSON Shapefiles of Bangladesh - Division, District/Zilla, Upozilla, Thana/Union
+# Bangladesh GeoJSON Shapefiles - Division, District/Zilla, Upozilla, Thana/Union
 
 <img src="https://raw.githubusercontent.com/yasserius/bangladesh_geojson_shapefile/main/bangladesh_shapefiles_geojson.png" height=400px>
 
